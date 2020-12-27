@@ -234,22 +234,20 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 69px;
   height: 50px;
+  background-color: var(--accent-color);
   min-width: 200px;
   cursor: pointer;
   border: transparent;
   border-radius: 4px;
-  margin-top: 69px;
-  padding: 10px 32px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--other-color);
-  background-color: var(--accent-color);
 }
 
 .backdrop {
@@ -488,15 +486,15 @@ img {
 .form-submit {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 50px;
   margin-top: 30px;
+  min-width: 200px;
+  height: 50px;
   background-color: var(--accent-color);
   cursor: pointer;
   border: transparent;
+  border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -1058,6 +1056,8 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--other-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1068,8 +1068,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
 }
 
 .icon-send {
