@@ -554,12 +554,12 @@ img {
   display: flex;
 }
 
-.about-images:not(:last-child) {
-  margin-right: 30px;
-}
-
 .about-images-item {
   position: relative;
+}
+
+.about-images-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-image-description {

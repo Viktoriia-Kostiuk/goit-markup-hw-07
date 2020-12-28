@@ -8,9 +8,9 @@
 }
 .about-list-item {
   width: 270px;
-     &:not(:last-child) {
-     margin-right: 30px;
-}
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-list-image {
@@ -41,13 +41,13 @@
 
 .about-images {
   display: flex;
-     &:not(:last-child) {
-     margin-right: 30px;
-}
 }
 
 .about-images-item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-image-description {
